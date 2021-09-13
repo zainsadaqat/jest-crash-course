@@ -12,5 +12,10 @@ describe('Jest Crash Course', () => {
   test('Truthy and Falsy', () => {
     const n = '';
     expect(n).toBeFalsy();
+    expect(n).not.toBeTruthy();
+  });
+  test('Numbers', () => {
+    const value = 2 + 2;
+    expect(value).toBeGreaterThan(3);
   });
 });
