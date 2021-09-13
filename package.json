@@ -19,5 +19,8 @@
   "homepage": "https://github.com/zainsadaqat/jest-crash-course#readme",
   "devDependencies": {
     "jest": "^27.1.1"
+  },
+  "dependencies": {
+    "axios": "^0.21.4"
   }
 }
